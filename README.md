@@ -23,4 +23,4 @@ water -> w4ter
 ```
 - To make an attempt to crack a password representation, after all obligatory fields are filled, click on the white arrow with green background (*Crack*).
 
-An example of a result using the *PassCrackGUI* is illustrated below through a figure. Is a *dictionary attack* using the well known *RockYou* dictionary and the "Hashcat" tool. An attempt to crack a password representation SHA1 of "superman".
+An example of a result using the *PassCrackGUI* is illustrated below through a figure. Is a *dictionary attack* using the well known *RockYou* dictionary and the *Hashcat* tool. An attempt to crack a password representation SHA1 of *superman*.
