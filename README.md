@@ -1,4 +1,4 @@
- option of choice on three different hash algorithms, SHA1, MD5 and SHA256. # PassCrackGUI
+# PassCrackGUI
 *PassCrackGUI* is a graphical interface created to join some tools freely available on the Internet. The primary goal was to create a platform that can help people using some experts tools for passwords representation cracking (*i.e* hash functions). Understanding and execute tools Like *Hashcat*, *John The Ripper (JTR)* and *RainbowCrack* can be hard, and the time wasting written the commands can be exhausting. The *PassCrackGUI* has a friendly and smooth environment that can help peoples using the tools mentioned  before, without any preoccupation to write a thousand times the executing commands.
 
 This interface hold the possibility of multiple different attacks. The different types of attacks available in the *PassCrackGUI* are already development in the tools *Hashcat*, *JTR* and *RainbowCrack*.**Dictionary Attack** and **Brute-Force** are the main algorithms that we can find in these two first tools. The *RainbowCrack* use a *time-memory tradeoff* algorithm (that uses a pre-computated data call **Rainbow Tables**) to crack hashes.
@@ -10,7 +10,7 @@ This graphical interface was created mainly to academic proportions, but can be 
 # User Manual and Working Example
 The interface are build to allow the user a self discovered and self use of the *PassCrackGUI*. The main preoccupation was to make it easy to comprehend and intuitive. 
 
-- The first thing the user has to choose while in the platform, is method to input the data, that can be in clean text, input a file with multiple passwords representations, or input a simple hash. The first allow the user the
+- The first thing the user has to choose while in the platform, is method to input the data, that can be in clean text, input a file with multiple passwords representations, or input a simple hash. The first allow the user the  option of choice on three different hash algorithms, SHA1, MD5 and SHA256.
 
 - If on the first option the user will chose the hash type, on the other two option, the program as to know what kind of password representation was insert. So the next step is click on button *Verify Hash* to find a possible hash type. Once verified, the user will choose from a list what hash algorithm he want to use for crack (the choice of a wrong type can leave to no results, so if the user can't be sure what kind of hash is dealing with, the more safe proceed is choose all).
 
