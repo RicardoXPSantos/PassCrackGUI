@@ -12,7 +12,7 @@ The interface are build to allow the user a self discovered and self use of the 
 
 - The first thing the user has to choose while in the platform, is method to input the data, that can be in clean text, input a file with multiple passwords representations, or input a simple hash. The first allow the user the  option of choice on three different hash algorithms, SHA1, MD5 and SHA256.
 
-- If on the first option the user will chose the hash type, on the other two option, the program as to know what kind of password representation was insert. So the next step is click on button *Verify Hash* to find a possible hash type. Once verified, the user will choose from a list what hash algorithm he want to use for crack (the choice of a wrong type can leave to no results, so if the user can't be sure what kind of hash is dealing with, the more safe proceed is choose all).
+- If on the first option the user will chose the hash type, on the other two option, the program as to know what kind of password representation was insert. So the next step is click on button *Verify Hash* to find a possible hash type. Once verified, the user will choose from a list what hash algorithm he want to use for crack (the choice of the wrong type can leave to no results. So if the user can't be sure what hash algorithm is, the more safe proceed is choose all).
 
 - Complete this steps above, its crucial pick at least one tool (*e.g* *Hashcat*, *JTR*, *RainbowCrack*). Inside of the first two tools, will be presented a button *Preferences*, that can be select the attack algorithm (*e.g* *dictionary attack*, *brute-force* or *default* a mixed attack used by *JTR*).
 
