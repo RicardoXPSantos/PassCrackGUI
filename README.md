@@ -1,7 +1,7 @@
 # PassCrackGUI
 *PassCrackGUI* is a graphical interface created to join some tools freely available on the Internet. The primary goal was to create a platform that can help people using some experts tools for passwords representation cracking (*i.e* hash functions). Understanding and execute tools Like *Hashcat*, *John The Ripper (JTR)* and *RainbowCrack* can be hard, and the time wasting written the commands can be exhausting. The *PassCrackGUI* has a friendly and smooth environment that can help people using the tools mentioned  before, without any preoccupation to write a thousand times the executing commands.
 
-This interface hold the possibility of multiple different attacks. The different types of attacks available in the *PassCrackGUI* are already development in the tools *Hashcat*, *JTR* and *RainbowCrack*.**Dictionary Attack** and **Brute-Force** are the main algorithms that we can find in these two first tools. The *RainbowCrack* use a *time-memory tradeoff* algorithm (that uses a pre-computated data call **Rainbow Tables**) to crack hashes.
+This interface hold the possibility of multiple different attacks. The different types of attacks available in the *PassCrackGUI* are already development in the tools *Hashcat*, *JTR* and *RainbowCrack*. **Dictionary Attack** and **Brute-Force** are the main algorithms that we can find in these two first tools. The *RainbowCrack* use a *time-memory tradeoff* algorithm (that uses a pre-computated data call **Rainbow Tables**) to crack hashes.
 
 Towards these functions mentioned are some others that the users can resort. One available allow to create a dictionary, that combined all possible cases of conjugations to the chars previously chosen. Such functionality is provided thanks to the implementation of a tool int the *PassCrackGUI* call *Crunch*.
 
@@ -24,3 +24,9 @@ water -> w4ter
 - To make an attempt to crack a password representation, after all obligatory fields are filled, click on the white arrow with green background (*Crack*).
 
 An example of a result using the *PassCrackGUI* is illustrated below through a figure. Is a *dictionary attack* using the well known *RockYou* dictionary and the *Hashcat* tool. An attempt to crack a password representation SHA1 of *superman*.
+
+#Requirements and Dependencies
+This graphical interface was build in a *IDE NetBeans 7.0.4* and also needs a *IDE* to run. In order to avoid problems and some possible incompatibilities is recommended using the same *IDE* and the same or more recent version. Another requisite is having the JAVA on the computer. 
+
+To run this application most be executed the file ```\toolkit\src\toolkit\Interface.java```, inside of the *IDE*.There has to be install also the tools used in the *PassCrackGUI*, like *Hashcat*, *JTR*, *Crunch* and *RainbowCrack*.
+The interface has a size minimum of 0000x000 being crucial has a computer resolution in accordance. Any attempt to reduce the size of the application window could leave to visibility lost.
