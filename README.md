@@ -29,4 +29,4 @@ An example of a result using the *PassCrackGUI* is illustrated below through a f
 This graphical interface was build in a *IDE NetBeans 7.0.4* and also needs a *IDE* to run. In order to avoid problems and some possible incompatibilities is recommended using the same *IDE* and the same or more recent version. Another requisite is having the JAVA on the computer. 
 
 To run this application most be executed the file ```\toolkit\src\toolkit\Interface.java```, inside of the *IDE*.There has to be install also the tools used in the *PassCrackGUI*, like *Hashcat*, *JTR*, *Crunch* and *RainbowCrack*.
-The interface has a size minimum of 0000x000 being crucial has a computer resolution in accordance. Any attempt to reduce the size of the application window could leave to visibility lost.
+The interface has a size minimum of 0000x000 being crucial has a computer resolution in accordance. Any attempt to reduce the size of the application window could lead to visibility lost.
